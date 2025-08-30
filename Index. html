@@ -1,1 +1,107 @@
-
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   Dolly Jajra Portfolio
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+      font-family: "Roboto", sans-serif;
+    }
+  </style>
+ </head>
+ <body class="min-h-screen bg-gradient-to-r from-blue-500 via-blue-400 to-blue-600 flex justify-center items-center p-6">
+  <div class="bg-white rounded-3xl max-w-4xl w-full p-10 shadow-xl text-gray-800">
+   <header class="flex flex-col items-center mb-10">
+    <div class="w-32 h-32 rounded-full border-4 border-blue-700 overflow-hidden mb-5">
+     <img alt="Profile photo placeholder with professional style text 'Profile Photo' on light background" class="w-full h-full object-cover" decoding="async" height="128" loading="lazy" src="https://storage.googleapis.com/a1aa/image/5e8b184d-fb24-4a9f-1454-950355cb7f58.jpg" width="128"/>
+    </div>
+    <h1 class="text-5xl font-semibold mb-1 text-blue-900">
+     Dolly Jajra
+    </h1>
+    <p class="text-lg text-blue-700 mb-1">
+     Warangal, Telangana
+    </p>
+    <p class="text-md text-blue-800 mb-1">
+     <a class="underline hover:text-blue-700" href="mailto:dollyjajra1230@gmail.com">
+      dollyjajra1230@gmail.com
+     </a>
+     | +91-7003799866
+    </p>
+    <p>
+     <a class="text-blue-700 underline hover:text-blue-900" href="#" rel="noopener noreferrer" target="_blank">
+      LinkedIn Profile
+     </a>
+    </p>
+   </header>
+   <section class="mb-8">
+    <h2 class="text-3xl font-semibold border-l-4 border-blue-700 pl-4 mb-4 text-blue-900">
+     Career Objective
+    </h2>
+    <p class="text-lg leading-relaxed pl-2">
+     BTech Student passionate about software development and problem solving,
+        eager to contribute skills and grow professionally.
+    </p>
+   </section>
+   <section class="mb-8">
+    <h2 class="text-3xl font-semibold border-l-4 border-blue-700 pl-4 mb-4 text-blue-900">
+     Academic Projects
+    </h2>
+    <ul class="list-disc list-inside pl-6 space-y-2 text-lg text-gray-700">
+     <li>
+      Wet &amp; Dry Smart Dustbin
+     </li>
+     <li>
+      ISRO Crash Detection Application
+     </li>
+    </ul>
+   </section>
+   <section class="mb-8">
+    <h2 class="text-3xl font-semibold border-l-4 border-blue-700 pl-4 mb-4 text-blue-900">
+     Skills
+    </h2>
+    <ul class="list-disc list-inside pl-6 space-y-2 text-lg text-gray-700">
+     <li>
+      Programming: C, C++, Python, Java
+     </li>
+     <li>
+      Soft Skills: Team Management, Communication, Leadership
+     </li>
+    </ul>
+   </section>
+   <section class="mb-8">
+    <h2 class="text-3xl font-semibold border-l-4 border-blue-700 pl-4 mb-4 text-blue-900">
+     Strengths
+    </h2>
+    <p class="text-lg leading-relaxed pl-2 text-gray-700">
+     Strong analytical skills, quick learner, and effective team player.
+    </p>
+   </section>
+   <section>
+    <h2 class="text-3xl font-semibold border-l-4 border-blue-700 pl-4 mb-4 text-blue-900">
+     Education
+    </h2>
+    <ul class="pl-6 space-y-3 text-lg text-gray-700">
+     <li>
+      <span class="font-semibold">
+       BTech
+      </span>
+      - Shanmukhi Reddy Institute
+          of Technology for Women (2023 - 2027)
+     </li>
+     <li>
+      <span class="font-semibold">
+       Intermediate
+      </span>
+      - Narayana Jr.
+          College (2021 - 2023)
+     </li>
+    </ul>
+   </section>
+  </div>
+ </body>
+</html>
